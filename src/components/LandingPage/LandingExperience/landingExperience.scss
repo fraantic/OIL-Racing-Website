@@ -1,0 +1,162 @@
+.landing-experience-parent-container {
+  padding-top: 13%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 110px;
+  width: 100vw;
+  height: 140vh;
+  z-index: 5;
+  background-color: #121212;
+  
+  .landing-experience-title {
+    position: absolute;
+    font-size: 70px;
+    margin-top: -250px;
+  }
+
+}
+
+.left-pill-container-parent {
+  width: 100%;
+  height: 350px;
+  .left-pill-container {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 3%;
+    width: 60%;
+    height: 90%;
+    background-color: #232329;
+    border-radius: 4px;
+    overflow: hidden;
+    border-style: solid;
+    border-color: #d3d3d3;
+
+    display: flex;
+    justify-content: start;
+    
+
+    .left-pill-shape {
+      width: 0.4%;
+      height: 100%;
+      background-color: #d3d3d3;
+    }
+
+    .left-pill-image-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      .left-pill-image {
+        border-radius: 4px;
+      }
+    }
+
+
+    .left-pill-text-container {
+      margin: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 57%;
+      .left-pill-event-title {
+        font-size: 39px;
+        font-weight: 500;
+        margin: 0;
+      }
+      .left-pill-event-description {
+        font-size: 20px;
+      }
+    }
+
+    .left-pill-link-image-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 13%;
+      .left-pill-image-next {
+        width: 100%;
+        height: 100%;
+          transition: all 0.3s;
+        &:hover {
+          transform: scale(1.2);
+          transition: all 0.3s;
+        }
+      }
+    }
+  }
+}
+
+.right-pill-container-parent {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: end;
+  .right-pill-container {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 3%;
+    width: 60%;
+    height: 90%;
+    background-color: #232329;
+    border-radius: 4px;
+    overflow: hidden;
+    border-style: solid;
+    border-color: #d3d3d3;
+
+    display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
+
+    .right-pill-shape {
+      width: 0.4%;
+      height: 100%;
+      background-color: #d3d3d3;
+    }
+
+    .right-pill-image-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      .right-pill-image {
+        border-radius: 4px;
+      }
+    }
+
+
+    .right-pill-text-container {
+      margin: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 57%;
+      .right-pill-event-title {
+        font-size: 39px;
+        font-weight: 500;
+        margin: 0;
+      }
+      .right-pill-event-description {
+        font-size: 20px;
+      }
+    }
+
+    .right-pill-link-image-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 13%;
+      .right-pill-image-next {
+        width: 100%;
+        height: 100%;
+          transition: all 0.3s;
+        &:hover {
+          transform: scale(1.2);
+          transition: all 0.3s;
+        }
+      }
+    }
+  }
+}
