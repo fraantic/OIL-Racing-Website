@@ -1,11 +1,8 @@
 import NavBar from "@/components/NavBar/navBar"
 import "./layout.scss"
-import {  Lilita_One, Roboto  } from 'next/font/google'
+import {  Roboto  } from 'next/font/google'
  
 // If loading a variable font, you don't need to specify the font weight
-const lilitaOne = Lilita_One({
-  weight: '400',
-})
 
 const roboto = Roboto({
   weight: ['100','400','700'],

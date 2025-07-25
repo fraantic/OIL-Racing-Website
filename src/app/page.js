@@ -1,3 +1,4 @@
+import LandingStart from "@/components/LandingPage/LandingStart/landing"
 
 
 const HomePage = () => {
@@ -5,7 +6,7 @@ const HomePage = () => {
 
   return (
     <div>
-    asd
+    <LandingStart/>
     </div>
   )
 }
