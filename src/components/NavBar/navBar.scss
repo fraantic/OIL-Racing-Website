@@ -1,3 +1,54 @@
-.test {
-  
+.navbar-parent {
+  z-index: 999;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(10px);
+  align-items: center;
+  background-color: rgba(35, 35, 41, 0.4);
+  height: 70px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  .navbar-left-parent {
+    padding: 0 10px;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    margin-left: 0%;
+    width: 50%;
+    .navbar-logo-image {
+      margin-left: 2%;
+    }
+    
+    .navbar-link-container {
+      width: 100%;
+      display: flex;
+      gap: 4%;
+
+      .navbar-link {
+        font-size: 1.4rem;
+        text-decoration: none;
+        color: #d3d3d3;
+        font-weight: 700;
+      }
+
+    }
+  }
+  .navbar-right-parent {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    .navbar-socials-container {
+      margin-right: 5%;
+      display: flex;
+      gap: 15%;
+      width: 40%;
+      flex-direction: row-reverse;
+      .navbar-github-icon {
+        .navbar-github-icon-image {
+
+        }
+      }
+    }
+  }
 }
