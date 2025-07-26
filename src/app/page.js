@@ -1,6 +1,7 @@
 import LandingStart from "@/components/LandingPage/LandingStart/landing"
 import LandingExperience from "@/components/LandingPage/LandingExperience/landingExperience"
 import "./page.scss"
+import LandingTeam from "@/components/LandingPage/LandingTeam/landingTeam"
 
 const HomePage = () => {
 
@@ -8,9 +9,7 @@ const HomePage = () => {
   return (
     <div>
     <LandingStart/>
-    <div className="white-line"/>
-    <LandingExperience/>
-    <div className="white-line"/>
+    <LandingTeam/>
     </div>
   )
 }

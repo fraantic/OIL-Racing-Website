@@ -1,11 +1,9 @@
 import NavBar from "@/components/NavBar/navBar"
 import "./layout.scss"
-import {  Roboto  } from 'next/font/google'
+import {  Poppins  } from 'next/font/google'
  
-// If loading a variable font, you don't need to specify the font weight
-
-const roboto = Roboto({
-  weight: ['100','400','500','700'],
+const roboto = Poppins({
+  weight: ['100','400','500','600','700'],
 })
 
 
