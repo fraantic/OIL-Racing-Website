@@ -99,6 +99,7 @@ const LandingTeam = () => {
             drag
             animate={isDragging}
             variants={ashtonVariant}
+            whileHover={{scale: 1.05}}
             dragConstraints={ParentRef}
             dragElastic={0.4}
             dragSnapToOrigin={true}
@@ -148,6 +149,7 @@ const LandingTeam = () => {
             animate={isDragging}
             variants={solusVariant}
             dragConstraints={ParentRef}
+            whileHover={{scale: 1.05}}
             dragElastic={0.4}
             dragSnapToOrigin={true}
             onDragStart={(e) => handleDragStarting(e,"2")}
@@ -197,6 +199,7 @@ const LandingTeam = () => {
             drag
             animate={isDragging}
             variants={sumoVariant}
+            whileHover={{scale: 1.05}}
             dragConstraints={ParentRef}
             dragElastic={0.4}
             dragSnapToOrigin={true}
