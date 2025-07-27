@@ -126,6 +126,7 @@ const LandingTeam = () => {
                       <div className="stat-dashed-line"></div>
                       <div className="stat-dashed-line"></div>
                       <div className="stat-dashed-line"></div>
+                      <div className="stat-dashed-line"></div>
                     </div>
                     <div className="card-stat-dash-container">
                       <div className="stat-dashed-line"></div>
